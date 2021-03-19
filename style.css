@@ -1,0 +1,56 @@
+.background {
+    background-color: rgb(6, 71, 71);
+}
+.header {
+    font-size: 30px;
+    color: black;
+    background-color: rgb(251, 255, 254);
+    border: black 5px solid;
+    text-align: center;
+}
+.first_h1 {
+    color: cadetblue;
+}
+.section_1 {
+    font-size: 30px;
+    color: black;
+    background-color: rgb(251, 255, 254);
+    border: black 5px solid;
+    text-align: center;
+    margin: 100px;
+}
+.img_car_wash {
+    margin: 20px;
+    background-color: black;
+    border:  cadetblue solid 5px;
+    padding: 10px 10px;
+}
+.ul_1 {
+    display: block;
+    border: black 5px solid;
+    margin-left: 450px;
+    margin-right: 450px;
+    list-style-type: none;
+}
+.ul_2 {
+    display: block;
+    border: black 5px solid;
+    margin-left: 450px;
+    margin-right: 450px;
+    list-style-type: none;
+}
+#footer {
+    font-size: 30px;
+    color: black;
+    background-color: rgb(251, 255, 254);
+    border: black 5px solid;
+    text-align: center;
+    margin: 100px;
+}
+.ul_3 {
+    font: bolder;
+    border: solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style-type: none;
+}

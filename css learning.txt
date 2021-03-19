@@ -1,0 +1,27 @@
+margin: 10px;
+	is what separates css elements from one another.
+	is not  seen just adds distance as specified with 
+	px. in this case  it is 10px away from the any othe 
+	css element. 
+
+border: solid red 20px;
+	in this example it will be a red  solid border 
+	that is 20px thick.
+	is a physical border that expands as the px are 
+	increased
+	color and styel can be added(dotted,solid,broken)
+
+padding: green 25px;
+	this id spacing in the elements in this case it is a
+	greed space that is 25px thick all arounc the main 
+	object
+	this is going to add space like margin but within the 
+	element not around it. can be seen and styled.
+
+margin: 10px auto; 
+	this will auto allaign if we want the block to 
+	center it.
+
+diplay:block;
+
+/**/
