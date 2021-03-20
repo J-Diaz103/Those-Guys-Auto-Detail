@@ -1,18 +1,35 @@
+body{
+    font-size: 30px;  
+}
+p{
+    margin: 2%;
+}
+ul{
+    margin: 2%;
+    padding: 2%;
+    line-height: 1.5;
+}
 .background {
     background-color: rgb(6, 71, 71);
 }
 .header {
-    font-size: 30px;
     color: black;
     background-color: rgb(251, 255, 254);
     border: black 5px solid;
     text-align: center;
+    padding: 30px;
+    margin: 3%;
+}
+.contact-info-header{
+    text-decoration: none;
+
 }
 .first_h1 {
     color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
 }
-.section_1 {
-    font-size: 30px;
+.section_1 { 
     color: black;
     background-color: rgb(251, 255, 254);
     border: black 5px solid;
@@ -25,22 +42,26 @@
     border:  cadetblue solid 5px;
     padding: 10px 10px;
 }
+.list-goup{
+    flex-wrap: wrap;
+}
 .ul_1 {
     display: block;
     border: black 5px solid;
-    margin-left: 450px;
-    margin-right: 450px;
     list-style-type: none;
+    margin-top: 2%;
+    margin-bottom:2%;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 .ul_2 {
     display: block;
     border: black 5px solid;
-    margin-left: 450px;
-    margin-right: 450px;
     list-style-type: none;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 #footer {
-    font-size: 30px;
     color: black;
     background-color: rgb(251, 255, 254);
     border: black 5px solid;

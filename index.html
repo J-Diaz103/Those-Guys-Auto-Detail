@@ -3,42 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Study Practice</title>
-    <link rel="stylesheet" href="style.css" >
+    <!-- Reset the browser css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" >
 </head>
 <body>
 <header class="header">
     <h1 class="first_h1">Those Guys Auto Detail</h1>
-    <p class=>Car wash and Detailing</p>
-    <p >
-        <a href="#contact_info">Contact info</a>
-    </p>
+        <p class=>Car wash and Detailing</p>
+        <p >
+            <a href="#contact_info" class="contact-info-header">Contact info</a>
+        </p>
 
 </header>
 
 <section class="section_1">
-    <img src="car_wash.png" alt="Person washing car" class="img_car_wash">
+    <img src="./assets/images/car_wash.png" alt="Person washing car" class="img_car_wash">
+    <!--this div is to group the two ul -->
+    <div class="list-goup">
     <h3>Regular car Wash</h3>
     <ul class="ul_1">
         <p>This includes a regular wash + wax, Interior + Exterior dressing</p>
         <P>Choice of the car scent: Honeydew, New Car, Stripper scent or No scent.</P>
-        <li>Small Car Wash  $25</li>
-        <li>Large sedan/ Convertible  $30</li>
-        <li>SUV/ Pickup $35</li>
+            <li>Small Car Wash  $25</li>
+            <li>Large sedan/ Convertible  $30</li>
+            <li>SUV/ Pickup $35</li>
     </ul>
     <h3>Premium Car Wash</h3>
     <ul class="ul_2">
         <p>This includes a regular wash + wax, Interior + Exterior dressing + Clay bar</p>
         <P>Choice of the car scent: Honeydew, New Car, Stripper scent or No scent.</P>
-        <li>Small Car Wash  $75</li>
-        <li>Large sedan/ Convertible  $85</li>
-        <li>SUV/ Pickup $100</li>
+            <li>Small Car Wash  $75</li>
+            <li>Large sedan/ Convertible  $85</li>
+            <li>SUV/ Pickup $100</li>
     </ul>
+    </div>
 </section>
 <footer id="footer">
-    <div id="contact_info" >
+    <div>
         <ul class="ul_3">
-            <li>Email: randomemail@email.com</li>
-            <li>Phone: (123)456-678</li>
+            <h2 id="contact_info">Contact Info</h2>
+                <li>Email: randomemail@email.com</li>
+                <li>Phone: (123)456-678</li>
         </ul>
     </div>
 </footer>
